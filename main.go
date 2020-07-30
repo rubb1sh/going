@@ -19,3 +19,7 @@ func main() {
 	fmt.Println(customErrorPtr.Implements(typeOfError)) // #=> true
 	fmt.Println(customError.Implements(typeOfError))    // #=> false
 }
+
+func add(a, b int) int {
+	return a + b
+}
